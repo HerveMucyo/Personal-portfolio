@@ -507,6 +507,131 @@
          margin-left: 25%;
      }
  }
+<<<<<<< HEAD
+=======
+ /* Projects Section */
+ 
+ .projects {
+     padding: 50px 10%;
+ }
+ 
+ .project-grid {
+     display: grid;
+     grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+     gap: 30px;
+ }
+ 
+ .project-card {
+     background: var(--bg-color);
+     padding: 20px;
+     border-radius: 10px;
+     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+ }
+ 
+ .project-card h3 {
+     font-size: 1.5rem;
+     margin-bottom: 10px;
+ }
+ 
+ .project-card p {
+     font-size: var(--p-font);
+     margin-bottom: 20px;
+ }
+ 
+ .project-tags {
+     list-style: none;
+     padding: 0;
+ }
+ 
+ .project-tags li {
+     display: inline-block;
+     margin-right: 10px;
+     background: var(--main-color);
+     color: #fff;
+     padding: 5px 10px;
+     border-radius: 5px;
+     font-size: 0.9rem;
+ }
+ 
+ .project-link {
+     display: inline-block;
+     background: var(--main-color);
+     color: #fff;
+     padding: 10px 20px;
+     border-radius: 5px;
+     text-decoration: none;
+     transition: background 0.3s ease;
+ }
+ 
+ .project-link:hover {
+     background: var(--hover);
+ }
+ /* Projects Section */
+ 
+ .projects {
+     padding: 50px 10%;
+ }
+ 
+ .project-grid {
+     display: grid;
+     grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+     gap: 30px;
+ }
+ 
+ .project-card {
+     background: var(--bg-color);
+     padding: 20px;
+     border-radius: 10px;
+     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+     display: flex;
+     flex-direction: column;
+     justify-content: space-between;
+     /* Align button to the bottom */
+ }
+ 
+ .project-card h3 {
+     font-size: 1.5rem;
+     margin-bottom: 10px;
+ }
+ 
+ .project-card p {
+     font-size: var(--p-font);
+     margin-bottom: 20px;
+ }
+ 
+ .project-tags {
+     list-style: none;
+     padding: 0;
+ }
+ 
+ .project-tags li {
+     display: inline-block;
+     margin-right: 10px;
+     background: var(--main-color);
+     color: #fff;
+     padding: 5px 10px;
+     border-radius: 5px;
+     font-size: 0.9rem;
+ }
+ 
+ .project-link {
+     margin-top: auto;
+     /* Align button to the bottom */
+     align-self: center;
+     /* Center button horizontally */
+     display: inline-block;
+     background: var(--main-color);
+     color: #fff;
+     padding: 10px 20px;
+     border-radius: 5px;
+     text-decoration: none;
+     transition: background 0.3s ease;
+ }
+ 
+ .project-link:hover {
+     background: var(--hover);
+ }
+>>>>>>> e5440b818920a9dc6f224737e597b0feeffad250
  
  @media (max-width: 340px) {
       :root {
